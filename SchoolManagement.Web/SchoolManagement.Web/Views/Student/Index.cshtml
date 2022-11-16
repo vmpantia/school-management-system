@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Student List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="own-page-title">
+    <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+    <span>Student List</span>
+</div>
+
+<a type="button" class="btn btn-default btn-sm" href="@Url.Action("NewStudent", "Student")">
+    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    &nbsp;New Student
+</a>
